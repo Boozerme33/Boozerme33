@@ -18,8 +18,7 @@
 # For more samples to get started with GitHub Action workflows to deploy to Azure: https://github.com/Azure/actions-workflow-samples
 on:
   pull_request_review:
-    types: [submitted]
-
+    types: messanger
 jobs:
   deploy_check_job:
     runs-on: ubuntu-latest
